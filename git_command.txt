@@ -68,6 +68,8 @@ $ git branch "브랜치 이름"
  -> 새로운 브랜치를 생성하는 깃 명령어.
 	git branch -d "브랜치 이름"
 	-> 브랜치를 삭제하는 깃 명령어.
+	git push origin --delete master
+	-> 원격(origin)에 있는 브랜치(master) 지우는 깃 명령어.
 
 $ git checkout "브랜치 이름"
  -> 작업 중인 브랜치를 변경하는 깃 명령어.
